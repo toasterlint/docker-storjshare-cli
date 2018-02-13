@@ -27,13 +27,14 @@ docker run --detach \
     --name mystorjdaemon \
     --restart=always \
     -v /path/to/storjdata:/storj \
-    -p 4000-4003:4000-4003 \
+    -p 4000:4000 \
 	-e WALLET_ADDRESS=your_ERC20_wallet_address \
 	[-e DATADIR=/storj] \
 	[-e SHARE_SIZE=1TB] \
 	[-e RPCADDRESS=0.0.0.0] \
+        [-e RPCPORT=4000] \
 	[-e USE_HOSTNAME_SUFFIX=FALSE] \
-    oreandawe/storjshare-cli:latest
+    toasterlint/storjshare-cli:latest
 ```
 
 ## Status ##
