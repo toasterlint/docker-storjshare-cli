@@ -1,6 +1,6 @@
 The Storj Share Daemon+CLI (https://github.com/Storj/storjshare-daemon).
 
-**Originally by oreandawe, just updated to remove tunnels and add ability to specify port**
+**Originally by oreandawe(zannen), just updated to remove tunnels and add ability to specify port**
 
 ## Build ##
 
