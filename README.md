@@ -1,21 +1,11 @@
 The Storj Share Daemon+CLI (https://github.com/Storj/storjshare-daemon).
 
+**Originally by oreandawe, just updated to remove tunnels and add ability to specify port**
+
 ## Build ##
 
-This image is built automatically every 8 hours, at 07:15, 15:15 and 23:15 (all times UTC), and whenever anything gets pushed to github. Pull the latest with:
-
 ```bash
-docker pull oreandawe/storjshare-cli:latest
-```
-
-## Local Build ##
-
-Alternatively, build the container locally:
-
-```bash
-cd /path/to/your/buildarea
-git clone https://github.com/zannen/docker-storjshare-cli
-docker build -t oreandawe/storjshare-cli:latest docker-storjshare-cli/
+docker pull toasterlint/storjshare-cli:latest
 ```
 
 ## Run Daemon ##
