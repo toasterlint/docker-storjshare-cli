@@ -1,4 +1,6 @@
 FROM gliderlabs/alpine:3.4
+MAINTAINER toasterlint "henry@toasterlint.com
+
 RUN apk add --no-cache nodejs
 
 RUN \
