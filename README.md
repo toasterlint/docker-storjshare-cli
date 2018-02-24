@@ -60,7 +60,7 @@ docker rm mystorjdaemon
 Check versions for `npm`, `node` and `storjshare` with:
 
 ```bash
-docker run --rm -ti --entrypoint /versions oreandawe/storjshare-cli:latest
+docker run --rm -ti --entrypoint /versions toasterlint/storjshare-cli:latest
 node version:
 v6.7.0
 
@@ -83,7 +83,7 @@ daemon: 5.3.0, core: 8.5.0, protocol: 1.2.0
 Or run an interactive shell:
 
 ```bash
-docker run --rm -ti --entrypoint /bin/sh oreandawe/storjshare-cli
+docker run --rm -ti --entrypoint /bin/sh toasterlint/storjshare-cli
 ```
 
 Or connect to an existing container:
